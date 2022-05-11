@@ -7,7 +7,7 @@ namespace yerdeyisme
         static void Main(string[] args)
         {
             
-            #region Shifreleme
+            #region Encryption
             Console.WriteLine("Sifrelenecek metni daxil edin:");
             string message = Console.ReadLine();
             if (message.Length < 3)
@@ -71,7 +71,7 @@ namespace yerdeyisme
                 Console.WriteLine("Sifrelenmis metn: " + sifrlenmisMetn);
                 #endregion
 
-                #region Deshifreleme
+                #region Decryption
                 flag = 0; k = 0;
                 Console.WriteLine("Desifrlenecek metni daxil edin:");
                 string desifrmetn = Console.ReadLine();
